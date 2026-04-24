@@ -35,9 +35,9 @@ public class FuncionesEval {
             String res="ERROR";
             if(temperatura<=10){
                 res="FRIO";
-            } else if(temperatura>10 && temperatura<=20){
+            } else if(temperatura<=20){
                 res="NUBLADO";
-            } else if(temperatura>20 && temperatura<=30){
+            } else if(temperatura<=30){
                 res="CALUROSO";
             } else if(temperatura>30){
                 res="TROPICAL";
